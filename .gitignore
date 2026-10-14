@@ -1,0 +1,20 @@
+# Never publish actual inbox data or credentials
+.env
+.env.*
+!.env.example
+*.mbox
+*.eml
+*.pst
+*.ost
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+token.json
+secrets.json
+__pycache__/
+*.pyc
+.venv/
+dist/
+.DS_Store
